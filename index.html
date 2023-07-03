@@ -5,27 +5,47 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
         }
         h1 {
             text-align: center;
+            color: #333;
+            margin-bottom: 50px;
         }
         ul {
             list-style-type: none;
             padding: 0;
-            width: 200px;
-            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
         }
         ul li {
-            margin: 10px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>투자 대가들의 공식</h1>
-    <ul>
-        <li><a href="buffett.html">워런 버핏</a></li>
-        <li><a href="lynch.html">피터 린치</a></li>
-        <!-- 다른 투자 대가들의 이름을 여기에 추가할 수 있습니다 -->
-    </ul>
+    <div class="container">
+        <h1>투자 대가들의 공식</h1>
+        <ul>
+            <li><a href="buffett.html">워런 버핏</a></li>
+            <li><a href="lynch.html">피터 린치</a></li>
+            <!-- 다른 투자 대가들의 이름을 여기에 추가할 수 있습니다 -->
+        </ul>
+    </div>
 </body>
 </html>
